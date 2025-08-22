@@ -1,0 +1,37 @@
+# CODEOWNERS file for admin-plugin-119
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-cache @Armor-test/grp-reporting @Armor-test/dept-ui
+
+# Directory ownership
+/styles/ @Armor-test/team-logging @Armor-test/dept-api @Armor-test/grp-ui
+/third_party/ @Armor-test/dept-release @Armor-test/squad-apps
+/web/ @Armor-test/squad-reporting @Armor-test/grp-integration
+/extensions/ @Armor-test/unit-test @Armor-test/squad-reporting @Armor-test/squad-tooling
+/lib/ @Armor-test/squad-mobile @Armor-test/grp-storage
+/ui/ @Armor-test/dept-reporting @Armor-test/dept-ui
+/shared/ @Armor-test/squad-tooling @Armor-test/unit-devops
+/views/ @Armor-test/grp-search @Armor-test/team-frontend
+/modules/ @Armor-test/unit-cloud @Armor-test/team-security @Armor-test/team-research
+/data/ @Armor-test/squad-tooling @Armor-test/grp-integration @Armor-test/unit-test
+/controllers/ @Armor-test/unit-cloud @Armor-test/squad-tooling @Armor-test/dept-release
+
+# File type ownership
+*.toml @Armor-test/grp-integration @Armor-test/dept-ui @Armor-test/team-research
+*.tf @Armor-test/grp-integration @Armor-test/dept-notifications
+*.css @Armor-test/team-governance @Armor-test/dept-reliability @Armor-test/team-reporting
+*.jsx @Armor-test/team-governance @Armor-test/grp-integration
+*.ini @Armor-test/squad-payments @Armor-test/dept-security @Armor-test/squad-search
+*.sh @Armor-test/team-governance @Armor-test/dept-logging @Armor-test/dept-api
+*.java @Armor-test/squad-qa @Armor-test/dept-api @Armor-test/dept-security
+*.js @Armor-test/team-governance @Armor-test/team-frontend @Armor-test/unit-cloud
+*.yml @Armor-test/squad-payments @Armor-test/dept-logging @Armor-test/squad-tooling
+*.graphql @Armor-test/grp-integration @Armor-test/team-governance @Armor-test/team-frontend
+*.swift @Armor-test/squad-ux @Armor-test/grp-api
+*.go @Armor-test/dept-billing @Armor-test/dept-reliability
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Dockerfile @Armor-test/devops @Armor-test/infra
